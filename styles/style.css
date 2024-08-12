@@ -53,6 +53,9 @@ body {
    padding: 0.5rem 1.25rem;
    border-radius: 2.75rem;
 }
+.ham-burger {
+   display: none;
+}
 
 
 
