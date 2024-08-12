@@ -1,0 +1,94 @@
+/* Google inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* default styles */
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.container {
+   max-width: 1060px;
+   margin: 5rem auto;
+}
+
+body {
+   background: rgb(185, 185, 185);
+}
+
+
+/* Shared styles  */
+.inter {
+   font-family: "Inter", sans-serif;
+}
+
+
+
+/* navbar styles  */
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+.nav-options {
+   display: flex;
+   align-items: center; 
+   gap: 5rem;
+}
+.nav-options a {
+   text-decoration: none;
+   color: white;
+   font-style: bold;
+   font-size: 1.125rem;
+   font-weight: normal;
+   cursor: pointer;
+}
+.logo .span {
+ color: rgb(230, 83, 60);
+ font-size: 2rem;
+ font-weight: 800;
+}
+.nav-options .span {
+   background-color: rgb(230, 83, 60);
+   padding: 0.5rem 1.25rem;
+   border-radius: 2.75rem;
+}
+.ham-burger {
+   display: none;
+}
+
+
+
+
+/* responsive styles  */
+/* mobile devices  */
+ @media screen and (max-width: 576px) {
+
+   .container {
+      max-width: 350px;
+      margin: 2rem auto;
+   }
+   .nav-options {
+      display : none;
+   }
+   .ham-burger {
+      display: block;
+      font-size: 2rem;
+   }
+
+
+}
+
+
+ /* medium devices  */
+ @media screen and (min-width:576px) and (max-width:992px) {
+   .container {
+      max-width: 90%;
+      margin: 3.5rem auto;
+   }
+   .nav-options {
+      gap: 3rem;
+   }
+ }
+ 
+
