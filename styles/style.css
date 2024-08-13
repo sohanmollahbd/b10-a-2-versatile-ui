@@ -272,6 +272,7 @@ header {
    background-color: rgb(34, 34, 34);
    border-radius: 1rem;
    padding: 2.5rem 3.5rem;
+   box-sizing: border-box;
 }
 
 .run-texts {
@@ -300,12 +301,25 @@ header {
 
 
 
+/* footer styles  */
+.footer {
+   background-color: rgb(0 0 0 / 85%);
+   padding-top: 4rem;
+   margin-top: 5.5rem;
+}
+.footer h3 {
+   margin-top: 0;
+   margin-bottom: 1.4rem;
+}
+.footer-description {
+   color: rgba(255, 255, 255, 0.429);
+}
 
-
-
-
-
-
+.logo .span {
+   color: rgb(230, 83, 60);
+   font-size: 4.3rem;
+   font-weight: 800;
+}
 
 
 
