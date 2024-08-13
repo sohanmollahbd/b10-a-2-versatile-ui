@@ -13,18 +13,24 @@
    margin: 0 auto;
 }
 
+main {
+   max-width: 100%;
+   margin: 0 auto;
+   background-color: #000;
+}
+
+body {
+   font-family: "Inter", sans-serif;
+}
+
 header {
-   background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(22, 21, 21, 0.811) 100%);
+   background: linear-gradient(180.00deg, rgb(0 0 0 / 85%), rgb(0 0 0) 100%);
 }
 
 /* 
 /* Shared styles  */
 .inter {
    font-family: "Inter", sans-serif;
-}
-
-.flex {
-   display: flex;
 }
 
 .grey-qo-regular {
@@ -35,6 +41,20 @@ header {
    font-size: 4.5rem;
    letter-spacing: .5rem;
 }
+
+
+.flex {
+   display: flex;
+}
+
+.text-center {
+   text-align: center;
+}
+
+.text-bold {
+   font-weight: bolder;
+}
+
 
 .primary-btn {
    padding: 1rem 2.5rem;
@@ -85,6 +105,10 @@ header {
    font-size: 1.125rem;
    font-weight: normal;
    cursor: pointer;
+}
+
+.logo a {
+   text-decoration: none;
 }
 
 .logo .span {
@@ -192,6 +216,55 @@ header {
 
 
 
+/* habit section styles  */
+.habit {
+   padding-top: 6rem;
+}
+
+.habit-title {
+   font-size: 3rem;
+   margin-bottom: 0;
+   margin-top: 0;
+   color: white;
+}
+
+.habit-title-description {
+   font-size: 1rem;
+   color: rgba(255, 255, 255, 0.364);
+}
+
+.habit-contents {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin-top: 3.5rem;
+}
+
+.habit-content {
+   text-align: center;
+}
+
+.habit-text {
+   font-size: 1.2rem;
+   font-weight: 600;
+   color: white;
+   margin-bottom: 0;
+   margin-top: 1.6rem;
+}
+
+.habit-description {
+   font-size: .9rem;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.468);
+   margin-top: 6px;
+}
+
+.habit-img {
+   max-width: 272px;
+   border-radius: 50%;
+}
+
+
+
 
 
 
@@ -237,6 +310,7 @@ header {
    .stay-healthy {
       flex-direction: column;
    }
+
    .healthy-text {
       max-width: 599.05px;
       margin-top: 0;
@@ -251,19 +325,19 @@ header {
       display: flex;
       flex-direction: row;
    }
+
    .primary-btn {
       padding: 1rem;
    }
+
    .secondary-btn {
       padding: 1rem;
-  
+
    }
+
    .healthy-picture {
       margin-top: 3rem;
    }
-   
-
-   
 
    /* cards responsive */
 
@@ -301,6 +375,27 @@ header {
    .card-2 .card-description {
       font-size: 0.614rem;
    }
+
+   /* habit styles  */
+   .habit-contents {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 3.5rem;
+      gap: 1rem;
+   }
+   .habit-title {
+      font-size: 2.2rem;
+   }
+   .habit-text{
+      margin-bottom: 6px;
+   }
+   .habit-description {
+      max-width: 231px;
+      margin: 0 auto;
+   }
+    
+
+
 
 
 }
@@ -343,6 +438,19 @@ header {
       top: 2rem;
       right: -3.5rem;
    }
+
+   /* habit styles  */
+  
+   .habit-contents {
+
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 3.5rem;
+      gap: 1rem;
+   }
+   .habit-title {
+      font-size: 2.2rem;
+   }
+    
 
 
 }
