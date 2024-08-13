@@ -274,8 +274,12 @@ header {
    padding: 2.5rem 3.5rem;
 }
 
+.run-texts {
+   max-width: 443px;
+}
+
 .run-picture {
-   padding-left: 10.2rem;
+   padding-left: 25.2rem;
 }
 
 .run-title-text {
