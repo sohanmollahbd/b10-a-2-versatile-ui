@@ -264,8 +264,35 @@ header {
 }
 
 
+/* run styles  */
+.run {
+   justify-items: center;
+   align-items: center;
+   margin-top: 6.25rem;
+   background-color: rgb(34, 34, 34);
+   border-radius: 1rem;
+   padding: 2.5rem 3.5rem;
+}
 
+.run-picture {
+   padding-left: 10.2rem;
+}
 
+.run-title-text {
+   font-size: 3rem;
+   color: white;
+   margin-bottom: 1rem;
+}
+
+.run-description {
+   margin-bottom: 2.125rem;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: .9rem;
+}
+
+.run-picture img {
+   border-radius: 1rem;
+}
 
 
 
@@ -383,22 +410,60 @@ header {
       margin-top: 3.5rem;
       gap: 1rem;
    }
+
    .habit-title {
       font-size: 2.2rem;
    }
-   .habit-text{
+
+   .habit-text {
       margin-bottom: 6px;
    }
+
    .habit-description {
       max-width: 231px;
       margin: 0 auto;
    }
-    
+
+   /* run styles  */
+   .run {
+      flex-direction: column;
+      margin-top: 4.125rem;
+      padding: 2rem 2.3rem;
+   }
+   .run br {
+      display: none;
+   }
+   .run-picture img {
+      width: 287px;
+   }
+
+   .run-picture {
+      padding-left: 1rem;
+      margin-top: 2rem;
+   }
+
 
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* medium devices  */
@@ -440,17 +505,30 @@ header {
    }
 
    /* habit styles  */
-  
+
    .habit-contents {
 
       grid-template-columns: repeat(2, 1fr);
       margin-top: 3.5rem;
       gap: 1rem;
    }
+
    .habit-title {
       font-size: 2.2rem;
    }
-    
+   
+   .run {
+      margin-top: 4.125rem;
+      padding: 2rem 2.3rem;
+   }
+   
+   .run-picture img {
+      max-width: 256px;
+   }
 
+   .run-picture {
+      padding-left: 1rem;
+      margin-top: 2rem;
+   }
 
 }
