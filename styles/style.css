@@ -708,13 +708,6 @@ header {
    }
 
    /* team styles  */
-   .row {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin: 1rem 0;
-      gap: 1.25rem;
-   } 
-
    .team-content-text {
       position: absolute;
       top: 63%;
