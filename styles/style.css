@@ -299,6 +299,23 @@ header {
    border-radius: 1rem;
 }
 
+/* team styles  */
+.team-title-text {
+   color: rgb(255, 255, 255);
+   font-size: 3rem;
+   font-weight: 900;
+   margin-bottom: 1rem;
+}
+
+.team-description {
+   color: rgba(255, 255, 255, 0.5);
+   font-size: .9rem;
+   padding-bottom: 4.8rem;
+}
+
+
+
+
 
 
 /* footer styles  */
@@ -307,19 +324,67 @@ header {
    padding-top: 4rem;
    margin-top: 5.5rem;
 }
+
 .footer h3 {
    margin-top: 0;
    margin-bottom: 1.4rem;
 }
+
 .footer-description {
    color: rgba(255, 255, 255, 0.429);
 }
 
-.logo .span {
+.footer-logo .span {
    color: rgb(230, 83, 60);
    font-size: 4.3rem;
    font-weight: 800;
 }
+
+.footer-logo a {
+   text-decoration: none;
+}
+
+.footer-menu-content {
+   padding-left: 7rem;
+}
+
+.footer-menu-content a {
+   text-decoration: none;
+}
+
+.footer-title {
+   font-size: 2rem;
+   font-weight: 700;
+   color: white;
+}
+
+.footer-menu {
+   font-size: 1.3rem;
+   color: rgba(255, 255, 255, 0.5);
+   font-weight: 400;
+}
+.footer-credit-text {
+   font-size: 1.25rem;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.5);
+   padding: 2.25rem 0;
+   margin-bottom: 0;
+}
+
+.footer hr {
+   margin-top: 5rem;
+   width: 1059px;
+   color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -448,9 +513,11 @@ header {
       margin-top: 4.125rem;
       padding: 2rem 2.3rem;
    }
+
    .run br {
       display: none;
    }
+
    .run-picture img {
       width: 287px;
    }
@@ -460,10 +527,20 @@ header {
       margin-top: 2rem;
    }
 
-
-
-
-
+   /* footer styles  */
+   .footer-contents{
+      flex-direction: column;
+   }
+   #footer {
+      flex-direction: column;
+   }
+   .footer-menu-content {
+      padding-left: 0;
+   }
+   .footer hr {
+      margin-top: 4.5rem;
+      width: 354px;
+   }
 }
 
 
@@ -534,12 +611,12 @@ header {
    .habit-title {
       font-size: 2.2rem;
    }
-   
+
    .run {
       margin-top: 4.125rem;
       padding: 2rem 2.3rem;
    }
-   
+
    .run-picture img {
       max-width: 256px;
    }
@@ -547,6 +624,24 @@ header {
    .run-picture {
       padding-left: 1rem;
       margin-top: 2rem;
+   }
+
+   /* footer styles  */
+   #footer {
+      flex-direction: column;
+   }
+   .footer-menu-content {
+      padding-left: 0;
+   }
+   .footer hr {
+      margin-top: 4.5rem;
+      width: 683px;
+   }
+   .footer-title {
+      font-size: 2rem;
+   }
+   #footer-right-menu {
+      padding-left: 9.5rem ;
    }
 
 }
