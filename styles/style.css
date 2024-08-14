@@ -543,7 +543,7 @@ select {
 
    .container {
       max-width: 350px;
-      margin: 0 auto;
+      margin: 0 5px;
    }
 
    .navbar {
@@ -592,6 +592,9 @@ select {
    .healthy-picture {
       margin-top: 3rem;
    }
+   .healthy-picture img {
+      width: 315px;
+  }
 
    /* cards responsive */
 
@@ -734,7 +737,7 @@ select {
 
    .footer hr {
       margin-top: 4.5rem;
-      width: 354px;
+      width: 290px;
    }
 }
 
