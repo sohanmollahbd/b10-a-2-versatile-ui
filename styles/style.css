@@ -450,6 +450,55 @@ select {
    margin-top: 32px;
 }
 
+/* teams and features related styles  */
+.branch {
+   justify-items: center;
+   align-items: center;
+   padding-bottom: 3rem;
+}
+
+.branch-img-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+}
+
+.img-branch {
+   width: 16.938rem;
+   height: 14.438rem;
+   border-radius: 2rem;
+
+}
+.img-relative {
+   position: relative;
+}
+.img-branch-text {
+   font-size: 2rem;
+   color: white;
+   font-weight: 800;
+   position: absolute;
+   z-index: 1;
+   top: 130px;
+   left: 25px;
+}
+.our-bracnhes {
+   margin-left: 3rem;
+}
+
+.branch-title {
+   font-size: 3rem;
+   font-weight: 900;
+   color: white;
+   margin-bottom: 1.5rem;
+}
+
+.branch-description {
+   font-size: 1rem;
+   color: rgba(240, 248, 255, 0.549);
+}
+
+
+
 
 /* footer styles  */
 .footer {
@@ -592,9 +641,10 @@ select {
    .healthy-picture {
       margin-top: 3rem;
    }
+
    .healthy-picture img {
       width: 315px;
-  }
+   }
 
    /* cards responsive */
 
@@ -718,9 +768,26 @@ select {
    .team-title-text {
       font-size: 2rem;
    }
+   .team {
+      padding-bottom: 2.5rem;
+  }
 
-
-
+   /* branch styles  */
+   .branch {
+      flex-direction: column-reverse;
+   }
+   .our-bracnhes {
+      margin-left: 1rem;
+  }
+  .branch-title {
+   font-size: 2rem;
+   margin-top: 0;
+}
+   .branch-img-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 24px;
+   }
 
    /* footer styles  */
    .footer-contents {
@@ -828,7 +895,7 @@ select {
    .bmi-title-text {
       font-size: 3rem;
       font-weight: 900;
-  }
+   }
 
 
    #bmi-title {
@@ -853,6 +920,12 @@ select {
       position: absolute;
       top: 63%;
       left: 6%;
+   }
+
+
+   /* our branch styles  */
+   .branch {
+      flex-direction: column-reverse;
    }
 
 
