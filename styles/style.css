@@ -374,6 +374,7 @@ select {
 
 select {
    padding-right: 129px;
+   color: rgb(255 255 255 / 34%);
 }
 
 /* form select:nth-child(2) {
@@ -485,7 +486,7 @@ select {
    left: 25px;
 }
 
-.our-bracnhes {
+.our-branches {
    margin-left: 3rem;
 }
 
