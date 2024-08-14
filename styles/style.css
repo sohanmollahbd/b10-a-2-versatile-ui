@@ -467,11 +467,14 @@ select {
    width: 16.938rem;
    height: 14.438rem;
    border-radius: 2rem;
+   filter: brightness(70%);
 
 }
+
 .img-relative {
    position: relative;
 }
+
 .img-branch-text {
    font-size: 2rem;
    color: white;
@@ -481,6 +484,7 @@ select {
    top: 130px;
    left: 25px;
 }
+
 .our-bracnhes {
    margin-left: 3rem;
 }
@@ -587,16 +591,20 @@ select {
 
 
 /* responsive styles  */
+
 /* mobile devices  */
 @media screen and (max-width: 576px) {
+   .secondary-btn {
+      margin-left: 6px;
+   }
 
    .container {
       max-width: 350px;
-      margin: 0 5px;
+      margin: 0 6px;
    }
 
    .navbar {
-      padding-top: 2rem;
+      padding-top: 0;
    }
 
    .nav-options {
@@ -657,18 +665,18 @@ select {
       border-radius: .9rem;
       padding: 1.2rem 1.5rem;
       position: absolute;
-      bottom: 15.125rem;
+      bottom: 14rem;
       left: 1rem;
    }
 
    .card-2 {
-      background-color: rgb(0 0 0 / 13%);
+      background-color: rgb(109 102 102 / 13%);
       width: 6rem;
       border-radius: .9rem;
-      padding: 1rem 2rem;
+      padding: 1rem 1rem;
       position: absolute;
       top: 2rem;
-      right: 0.300rem;
+      right: 1rem;
    }
 
    .card-2 p {
@@ -684,6 +692,10 @@ select {
    }
 
    /* habit styles  */
+   .habit {
+      padding-top: 3rem;
+   }
+
    .habit-contents {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -692,7 +704,7 @@ select {
    }
 
    .habit-title {
-      font-size: 2.2rem;
+      font-size: 2rem;
    }
 
    .habit-text {
@@ -711,6 +723,10 @@ select {
       padding: 2rem 2.3rem;
    }
 
+   .run-title-text {
+      font-size: 2rem;
+   }
+
    .run br {
       display: none;
    }
@@ -725,6 +741,10 @@ select {
    }
 
    /* bmi styles  */
+   th {
+      font-size: 1rem;
+   }
+
    .bmi-title-text {
       font-size: 2rem;
       font-weight: 900;
@@ -768,21 +788,25 @@ select {
    .team-title-text {
       font-size: 2rem;
    }
+
    .team {
       padding-bottom: 2.5rem;
-  }
+   }
 
    /* branch styles  */
    .branch {
       flex-direction: column-reverse;
    }
+
    .our-bracnhes {
       margin-left: 1rem;
-  }
-  .branch-title {
-   font-size: 2rem;
-   margin-top: 0;
-}
+   }
+
+   .branch-title {
+      font-size: 2rem;
+      margin-top: 0;
+   }
+
    .branch-img-container {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
@@ -790,6 +814,7 @@ select {
    }
 
    /* footer styles  */
+
    .footer-contents {
       flex-direction: column;
    }
