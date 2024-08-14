@@ -302,17 +302,20 @@ header {
 /* bmi styles  */
 .bmi {
    width: 100%;
-   background-color:  rgb(34, 34, 34);
+   background-color: rgb(34, 34, 34);
    padding-bottom: 3.25rem;
 }
+
 .bmi-texts {
    margin-left: 12rem;
    margin-bottom: 2.5rem;
 }
+
 #bmi-title {
    padding-top: 0;
    margin-top: 0;
 }
+
 .bmi-title-text {
    font-size: 3rem;
    font-weight: 900;
@@ -320,6 +323,7 @@ header {
    margin-bottom: .85rem;
    padding-top: 4.8rem;
 }
+
 .bmi-description {
    font-size: 0.8rem;
    font-weight: 400;
@@ -333,7 +337,9 @@ header {
    color: white;
 }
 
-table,th , td{
+table,
+th,
+td {
    border: 1px solid rgba(255, 255, 255, 0.1);
    border-collapse: collapse;
 }
@@ -344,7 +350,7 @@ th {
    padding: 1rem;
 }
 
- td {
+td {
    padding: 1rem;
    text-align: center;
    color: rgba(255, 255, 255, 0.5);
@@ -356,18 +362,20 @@ form {
    margin-left: 12rem;
 }
 
-form input, select {
+form input,
+select {
    padding: 0.75rem 2rem;
    margin: .5rem;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 8px;
    border: none;
-   color:rgba(255, 255, 255, 0.6);
+   color: rgba(255, 255, 255, 0.6);
 }
 
 select {
    padding-right: 129px;
 }
+
 /* form select:nth-child(2) {
    padding-right: 40px;
 } */
@@ -396,12 +404,13 @@ select {
 }
 
 
- .team-cards {
+.team-cards {
    padding: 1.25rem;
    background-color: rgba(255, 255, 255, 0.1);
    border-radius: 1.125rem;
    margin-top: 3.625rem;
- }
+}
+
 .team-card {
    position: relative;
 }
@@ -662,6 +671,35 @@ select {
       margin-top: 2rem;
    }
 
+   /* bmi styles  */
+   .bmi-title-text {
+      font-size: 2rem;
+      font-weight: 900;
+   }
+
+   #bmi-title {
+      margin-top: 45px;
+   }
+
+   .bmi-flex {
+      flex-direction: column;
+   }
+
+   .bmi-texts {
+      margin-left: 0;
+      margin-bottom: 2.5rem;
+   }
+
+   form {
+      margin-left: 0;
+   }
+
+   select {
+      padding-right: 37px;
+   }
+
+
+
    /* team styles  */
    .row {
       display: grid;
@@ -669,12 +707,14 @@ select {
       margin: 1rem 0;
       gap: 1.25rem;
    }
+
    .team-content-text {
       top: 69%;
-  }
-  .team-title-text {
-   font-size: 2rem;
-  }
+   }
+
+   .team-title-text {
+      font-size: 2rem;
+   }
 
 
 
@@ -781,12 +821,36 @@ select {
       margin-top: 2rem;
    }
 
+   /* bmi styles  */
+   .bmi-title-text {
+      font-size: 3rem;
+      font-weight: 900;
+  }
+
+
+   #bmi-title {
+      margin-top: 45px;
+   }
+
+   .bmi-flex {
+      flex-direction: column;
+   }
+
+   .bmi-texts {
+      margin-left: 0;
+      margin-bottom: 2.5rem;
+   }
+
+   form {
+      margin-left: 0;
+   }
+
    /* team styles  */
    .team-content-text {
       position: absolute;
       top: 63%;
       left: 6%;
-  }
+   }
 
 
    /* footer styles  */
