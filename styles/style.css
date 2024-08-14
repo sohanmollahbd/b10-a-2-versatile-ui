@@ -299,6 +299,83 @@ header {
    border-radius: 1rem;
 }
 
+/* bmi styles  */
+.bmi {
+   width: 100%;
+   background-color:  rgb(34, 34, 34);
+   padding-bottom: 3.25rem;
+}
+.bmi-texts {
+   margin-left: 12rem;
+   margin-bottom: 2.5rem;
+}
+#bmi-title {
+   padding-top: 0;
+   margin-top: 0;
+}
+.bmi-title-text {
+   font-size: 3rem;
+   font-weight: 900;
+   color: white;
+   margin-bottom: .85rem;
+   padding-top: 4.8rem;
+}
+.bmi-description {
+   font-size: 0.8rem;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 0;
+}
+
+.caption {
+   font-size: 1.75rem;
+   font-weight: 900;
+   color: white;
+}
+
+table,th , td{
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-collapse: collapse;
+}
+
+th {
+   color: white;
+   font-size: 1.2rem;
+   padding: 1rem;
+}
+
+ td {
+   padding: 1rem;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 1rem;
+}
+
+
+form {
+   margin-left: 12rem;
+}
+
+form input, select {
+   padding: 0.75rem 2rem;
+   margin: .5rem;
+   background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 8px;
+   border: none;
+   color:rgba(255, 255, 255, 0.6);
+}
+
+select {
+   padding-right: 129px;
+}
+/* form select:nth-child(2) {
+   padding-right: 40px;
+} */
+
+.submit {
+   margin-top: 2rem;
+}
+
 /* team styles  */
 .team {
    padding-top: 3.625rem;
@@ -371,9 +448,6 @@ header {
    padding-top: 4rem;
 }
 
-/* .footer-contents {
-   display: flex;!important
-} */
 .footer h3 {
    margin-top: 0;
    margin-bottom: 1.4rem;
